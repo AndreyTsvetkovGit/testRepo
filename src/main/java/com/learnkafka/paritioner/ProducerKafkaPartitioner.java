@@ -12,6 +12,7 @@ public class ProducerKafkaPartitioner implements Partitioner {
 		
 	}
 
+	
 	public int partition(String topic, Object key, byte[] keyBytes,
 			Object value, byte[] valueBytes, Cluster cluster) {
 		// TODO Auto-generated method stub
